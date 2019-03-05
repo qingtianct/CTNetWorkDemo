@@ -1,0 +1,22 @@
+{
+  "name": "CTNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of CTNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jxrs/CTNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jxrs": "1295890900@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jxrs/CTNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CTNetworking/Classes/**/*"
+}

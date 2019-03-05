@@ -1,0 +1,21 @@
+PODS:
+  - CTLogining (0.1.0)
+  - CTNetworking (0.1.0)
+
+DEPENDENCIES:
+  - CTLogining (from `Lib/CTLogining`)
+  - CTNetworking (from `Lib/CTNetworking`)
+
+EXTERNAL SOURCES:
+  CTLogining:
+    :path: Lib/CTLogining
+  CTNetworking:
+    :path: Lib/CTNetworking
+
+SPEC CHECKSUMS:
+  CTLogining: c0fb63105f75e0bd2ea174bd73bc20d44034796b
+  CTNetworking: 89f81037313fa15f1d20806bf82d8a37e01018b7
+
+PODFILE CHECKSUM: e43f224d89783d220fc402e87bc76e9eadad3971
+
+COCOAPODS: 1.6.0.beta.2

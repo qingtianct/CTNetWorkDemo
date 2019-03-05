@@ -1,0 +1,22 @@
+{
+  "name": "CTLogining",
+  "version": "0.1.0",
+  "summary": "A short description of CTLogining.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jxrs/CTLogining",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jxrs": "1295890900@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jxrs/CTLogining.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CTLogining/Classes/**/*"
+}

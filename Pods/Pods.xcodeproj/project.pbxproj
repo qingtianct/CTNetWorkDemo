@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12896F4ADA0762E32B1427E7C87C42F2 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1AD56D379305E8EAC37CFCCB6A5D35 /* Tool.m */; };
+		2B13DE08436F9C61C4B4417FE554A0AB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F028866F9C47FD23B13CB3911F544A85 /* ReplaceMe.m */; };
+		2F6FE17DAC6240125D6E23FC8855BBC9 /* Pods-CTNetWorkDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2192DEA3BCD95417F42C3DE1EC504 /* Pods-CTNetWorkDemo-dummy.m */; };
+		57E72F7D6720DCE6345F29FDB70B6DFB /* Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = C87E9AD9030E4FA2AFC02AD6A697C8C8 /* Tool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AA7C926EFA225EB83289FCBCEB5646F /* CTNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C72F43F59B92C0BBB53C38953D6083BC /* CTNetworking-dummy.m */; };
+		8423DD716AAB41181AC2E093DD5F2B48 /* CTLogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7945B3619F1BE8E3C2F4DACE2D4E6610 /* CTLogining-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76377A4B9547AA997DAED197DB541D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1DEEF1962064B4B3E7068C250BC68A;
+			remoteInfo = CTNetworking;
+		};
+		DBB68877CB3095C0B305AB3DF1B1F1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF62D064093552BA34089E15183B0EC6;
+			remoteInfo = CTLogining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C18FD54EE01ECDDBB1458276D7C6E9 /* Pods-CTNetWorkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTNetWorkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0F2A7DECE3F23E100FF74CC599CD0E2E /* CTNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CTNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F70DA29F33D08EBE1F3CCBE1EEB8443 /* Pods-CTNetWorkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTNetWorkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1F7CDBC4F439E6B7FE121F6021BE5CEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		23CF47F78AAD0475BCD28D5BDE068EE8 /* CTNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTNetworking-prefix.pch"; sourceTree = "<group>"; };
+		2D442D6FF4E5BA706234344476BCE028 /* CTLogining.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTLogining.xcconfig; sourceTree = "<group>"; };
+		3FDE4C60E18F857748223C1CFD530680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		583B841E613C364D87A5B9F5C536257F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6628B7B1970827D11DBC580AEC886278 /* Pods-CTNetWorkDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTNetWorkDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		68E2192DEA3BCD95417F42C3DE1EC504 /* Pods-CTNetWorkDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTNetWorkDemo-dummy.m"; sourceTree = "<group>"; };
+		7945B3619F1BE8E3C2F4DACE2D4E6610 /* CTLogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTLogining-dummy.m"; sourceTree = "<group>"; };
+		944596D0B568177081A965A218A7465D /* libCTLogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTLogining.a; path = libCTLogining.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1AD56D379305E8EAC37CFCCB6A5D35 /* Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Tool.m; path = CTNetworking/Classes/Tool.m; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B41E6B150A768426DA6E8EF80534DEE5 /* CTLogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTLogining-prefix.pch"; sourceTree = "<group>"; };
+		B62152FF96E28239546350DB6E411446 /* libPods-CTNetWorkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CTNetWorkDemo.a"; path = "libPods-CTNetWorkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB37515AF2B9B8C47C0EF8E30B483394 /* libCTNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTNetworking.a; path = libCTNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72F43F59B92C0BBB53C38953D6083BC /* CTNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTNetworking-dummy.m"; sourceTree = "<group>"; };
+		C87E9AD9030E4FA2AFC02AD6A697C8C8 /* Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tool.h; path = CTNetworking/Classes/Tool.h; sourceTree = "<group>"; };
+		C986331ACC5AEAA4C3B02423711E6979 /* CTNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTNetworking.xcconfig; sourceTree = "<group>"; };
+		CB05E933A8D87B6A65048E98C1F555C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D2E0E17DE9E4CA8EB88FFD81BFA8AC09 /* CTLogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CTLogining.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F028866F9C47FD23B13CB3911F544A85 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CTLogining/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		F44D17EF1C8BFDEDF44EC4D9B7D38871 /* Pods-CTNetWorkDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTNetWorkDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3A62E6564671E824B3DF758937CCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3257D7365B2303B70D3DF21AFAA62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70FDED2609A9A8C7E9D35B3135A8460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C7CA1659E74ED6392101105154FAFFD /* CTNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C87E9AD9030E4FA2AFC02AD6A697C8C8 /* Tool.h */,
+				9F1AD56D379305E8EAC37CFCCB6A5D35 /* Tool.m */,
+				3C2CF0993A1226222E599DE8C40ACC36 /* Pod */,
+				A4178ABC081199385924D7A9B51759CE /* Support Files */,
+			);
+			name = CTNetworking;
+			path = ../Lib/CTNetworking;
+			sourceTree = "<group>";
+		};
+		30E413FA1F0E5DAC52414C29C9E7D420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944596D0B568177081A965A218A7465D /* libCTLogining.a */,
+				BB37515AF2B9B8C47C0EF8E30B483394 /* libCTNetworking.a */,
+				B62152FF96E28239546350DB6E411446 /* libPods-CTNetWorkDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2CF0993A1226222E599DE8C40ACC36 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0F2A7DECE3F23E100FF74CC599CD0E2E /* CTNetworking.podspec */,
+				3FDE4C60E18F857748223C1CFD530680 /* LICENSE */,
+				CB05E933A8D87B6A65048E98C1F555C3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		45990DF617DD49F6F63ABC4223B7381A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D442D6FF4E5BA706234344476BCE028 /* CTLogining.xcconfig */,
+				7945B3619F1BE8E3C2F4DACE2D4E6610 /* CTLogining-dummy.m */,
+				B41E6B150A768426DA6E8EF80534DEE5 /* CTLogining-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/CTLogining";
+			sourceTree = "<group>";
+		};
+		5698E9F531A677E348EF770E53FDCD5B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D2E0E17DE9E4CA8EB88FFD81BFA8AC09 /* CTLogining.podspec */,
+				1F7CDBC4F439E6B7FE121F6021BE5CEC /* LICENSE */,
+				583B841E613C364D87A5B9F5C536257F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		721E2C7D436CAA9E1EB36DB3F4C07990 /* CTLogining */ = {
+			isa = PBXGroup;
+			children = (
+				F028866F9C47FD23B13CB3911F544A85 /* ReplaceMe.m */,
+				5698E9F531A677E348EF770E53FDCD5B /* Pod */,
+				45990DF617DD49F6F63ABC4223B7381A /* Support Files */,
+			);
+			name = CTLogining;
+			path = ../Lib/CTLogining;
+			sourceTree = "<group>";
+		};
+		79211D9130C594E94E2A9D803907C1CE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73199A40FB792C0FE1B1B51EAF2A6B3 /* Pods-CTNetWorkDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				A57548220086DC889D8C38C4CC68BF8A /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				30E413FA1F0E5DAC52414C29C9E7D420 /* Products */,
+				79211D9130C594E94E2A9D803907C1CE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A4178ABC081199385924D7A9B51759CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C986331ACC5AEAA4C3B02423711E6979 /* CTNetworking.xcconfig */,
+				C72F43F59B92C0BBB53C38953D6083BC /* CTNetworking-dummy.m */,
+				23CF47F78AAD0475BCD28D5BDE068EE8 /* CTNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/CTNetworking";
+			sourceTree = "<group>";
+		};
+		A57548220086DC889D8C38C4CC68BF8A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				721E2C7D436CAA9E1EB36DB3F4C07990 /* CTLogining */,
+				2C7CA1659E74ED6392101105154FAFFD /* CTNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E73199A40FB792C0FE1B1B51EAF2A6B3 /* Pods-CTNetWorkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F44D17EF1C8BFDEDF44EC4D9B7D38871 /* Pods-CTNetWorkDemo-acknowledgements.markdown */,
+				6628B7B1970827D11DBC580AEC886278 /* Pods-CTNetWorkDemo-acknowledgements.plist */,
+				68E2192DEA3BCD95417F42C3DE1EC504 /* Pods-CTNetWorkDemo-dummy.m */,
+				1F70DA29F33D08EBE1F3CCBE1EEB8443 /* Pods-CTNetWorkDemo.debug.xcconfig */,
+				01C18FD54EE01ECDDBB1458276D7C6E9 /* Pods-CTNetWorkDemo.release.xcconfig */,
+			);
+			name = "Pods-CTNetWorkDemo";
+			path = "Target Support Files/Pods-CTNetWorkDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FFCB3E7A9A5F4E93FF3A04BC57C79CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3618BCC836F7C642C6DA0E058AF7E2F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E72F7D6720DCE6345F29FDB70B6DFB /* Tool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712C56897DEEDE9683F7291F07ECC3DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9EAA79B132E0AE44E42BF313E8D0FAC1 /* Pods-CTNetWorkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF339E16577C27A9ADF9A1FF0295E1D3 /* Build configuration list for PBXNativeTarget "Pods-CTNetWorkDemo" */;
+			buildPhases = (
+				712C56897DEEDE9683F7291F07ECC3DA /* Headers */,
+				9BF8F559C1FCDA5663D86C647E7A24AD /* Sources */,
+				B70FDED2609A9A8C7E9D35B3135A8460 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				588076E9C082A11C92FBF68573379130 /* PBXTargetDependency */,
+				9C37B40214EE961E896EB5599D3E4E45 /* PBXTargetDependency */,
+			);
+			name = "Pods-CTNetWorkDemo";
+			productName = "Pods-CTNetWorkDemo";
+			productReference = B62152FF96E28239546350DB6E411446 /* libPods-CTNetWorkDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF1DEEF1962064B4B3E7068C250BC68A /* CTNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF708DB9C7185D8DE8F7DD67D38ADF98 /* Build configuration list for PBXNativeTarget "CTNetworking" */;
+			buildPhases = (
+				3618BCC836F7C642C6DA0E058AF7E2F5 /* Headers */,
+				B053E17B1977F5C595258A264B56CB51 /* Sources */,
+				2A3A62E6564671E824B3DF758937CCCC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTNetworking;
+			productName = CTNetworking;
+			productReference = BB37515AF2B9B8C47C0EF8E30B483394 /* libCTNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF62D064093552BA34089E15183B0EC6 /* CTLogining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2CBD5C6283A4C77B2DA6E4072FD298 /* Build configuration list for PBXNativeTarget "CTLogining" */;
+			buildPhases = (
+				2FFCB3E7A9A5F4E93FF3A04BC57C79CC /* Headers */,
+				4C9D9225F7686515DD9B18D47B71214F /* Sources */,
+				2F3257D7365B2303B70D3DF21AFAA62F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTLogining;
+			productName = CTLogining;
+			productReference = 944596D0B568177081A965A218A7465D /* libCTLogining.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 30E413FA1F0E5DAC52414C29C9E7D420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF62D064093552BA34089E15183B0EC6 /* CTLogining */,
+				CF1DEEF1962064B4B3E7068C250BC68A /* CTNetworking */,
+				9EAA79B132E0AE44E42BF313E8D0FAC1 /* Pods-CTNetWorkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9D9225F7686515DD9B18D47B71214F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8423DD716AAB41181AC2E093DD5F2B48 /* CTLogining-dummy.m in Sources */,
+				2B13DE08436F9C61C4B4417FE554A0AB /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF8F559C1FCDA5663D86C647E7A24AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6FE17DAC6240125D6E23FC8855BBC9 /* Pods-CTNetWorkDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B053E17B1977F5C595258A264B56CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA7C926EFA225EB83289FCBCEB5646F /* CTNetworking-dummy.m in Sources */,
+				12896F4ADA0762E32B1427E7C87C42F2 /* Tool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		588076E9C082A11C92FBF68573379130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTLogining;
+			target = FF62D064093552BA34089E15183B0EC6 /* CTLogining */;
+			targetProxy = DBB68877CB3095C0B305AB3DF1B1F1B4 /* PBXContainerItemProxy */;
+		};
+		9C37B40214EE961E896EB5599D3E4E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTNetworking;
+			target = CF1DEEF1962064B4B3E7068C250BC68A /* CTNetworking */;
+			targetProxy = 76377A4B9547AA997DAED197DB541D9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ED5F5ACC5C94CB3E9F03D10EF8AA3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D442D6FF4E5BA706234344476BCE028 /* CTLogining.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTLogining/CTLogining-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTLogining;
+				PRODUCT_NAME = CTLogining;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		105F90BF10F8688032FB629A9DA204FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		354C7F5357EEBD974B05AA615216174F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C986331ACC5AEAA4C3B02423711E6979 /* CTNetworking.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTNetworking/CTNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTNetworking;
+				PRODUCT_NAME = CTNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4523AD7643ED91A440EAEA20025EC111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6DF0162E578238D0D46B117734A5E5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F70DA29F33D08EBE1F3CCBE1EEB8443 /* Pods-CTNetWorkDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6CAB27EC28E8F1B125696853F2395E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C986331ACC5AEAA4C3B02423711E6979 /* CTNetworking.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTNetworking/CTNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTNetworking;
+				PRODUCT_NAME = CTNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC472E3AADB3192DDD80AA44AD872A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D442D6FF4E5BA706234344476BCE028 /* CTLogining.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTLogining/CTLogining-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTLogining;
+				PRODUCT_NAME = CTLogining;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D894255A0B72A661ADC10E944ED7F10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C18FD54EE01ECDDBB1458276D7C6E9 /* Pods-CTNetWorkDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105F90BF10F8688032FB629A9DA204FD /* Debug */,
+				4523AD7643ED91A440EAEA20025EC111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2CBD5C6283A4C77B2DA6E4072FD298 /* Build configuration list for PBXNativeTarget "CTLogining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED5F5ACC5C94CB3E9F03D10EF8AA3DF /* Debug */,
+				BC472E3AADB3192DDD80AA44AD872A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF339E16577C27A9ADF9A1FF0295E1D3 /* Build configuration list for PBXNativeTarget "Pods-CTNetWorkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF0162E578238D0D46B117734A5E5AC /* Debug */,
+				D894255A0B72A661ADC10E944ED7F10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF708DB9C7185D8DE8F7DD67D38ADF98 /* Build configuration list for PBXNativeTarget "CTNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CAB27EC28E8F1B125696853F2395E7 /* Debug */,
+				354C7F5357EEBD974B05AA615216174F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
